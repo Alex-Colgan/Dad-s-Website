@@ -32,3 +32,17 @@ body {
   
 }
 
+.border {
+  border: 5px solid grey;
+  width: 240px;
+  height: 535px;
+  padding:25px;
+  position:absolute;
+  top:120px;
+  left: 220px;
+}
+
+p {
+  color: white;
+  font-family: palatino;
+}
