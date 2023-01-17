@@ -37,8 +37,7 @@ body {
 
 .border {
   border: 5px solid grey;
-  width: 240px;
-  height: 535px;
+  max-width: 25%;
   padding: 25px;
   position: absolute;
   top: 120px;
