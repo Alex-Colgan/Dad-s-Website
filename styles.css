@@ -35,13 +35,6 @@ body {
   color: white;
 }
 
-.border {
-  border: 5px solid grey;
-  max-width: 25%;
-  padding: 25px;
-  margin: 1em;
-}
-
 p {
   color: white;
   font-family: palatino;
@@ -96,22 +89,90 @@ div.relative {
 	box-sizing: border-box;
 }
 
-.landscapesIntroImage {
-  width:800px;
-  margin: 1em;
-}
-
-.flexTest {
+.flex {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
+.border {
+  border: 5px solid grey;
+  padding: 25px;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.border.profile {
+  max-width: 450px;
+}
+
+.border.portraiture {
+  max-width:450px;
+}
+
+.border.landscapes {
+  max-width:800px;
+}
+
+.border.still-life {
+  max-width:500px;
+}
+
+.border.nudes {
+  max-width:450px;
+}
+
+.border.misc {
+  max-width:500px;
+}
+
+.introImage {
+  margin: 1em;
+  object-fit: contain;
+}
+
+.introImage.profile {
+  max-width: 450px;
+}
+
+.introImage.portraiture {
+  max-width:450px;
+}
+
+.introImage.landscapes {
+  max-width:800px;
+}
+
+.introImage.still-life {
+  max-width:500px;
+}
+
+.introImage.nudes {
+  max-width:450px;
+}
+
+.introImage.misc {
+  max-width:500px;
+}
+
 @media screen and (max-width: 480px) {
+  /*
   .navbar a {
     float: none;
     display: block;
     width: 100%;
     text-align: left;
+  }
+  */
+
+  .border {
+    max-width: 100%;
+  }
+
+  .flex {
+    flex-direction: column;
+    justify-content: space-evenly;
   }
 }
