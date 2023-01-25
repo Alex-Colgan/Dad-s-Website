@@ -102,7 +102,10 @@ div.relative {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  max-width: 30%;
 }
+
+/*
 
 .border.profile {
   max-width: 450px;
@@ -127,6 +130,8 @@ div.relative {
 .border.misc {
   max-width:500px;
 }
+
+*/
 
 .introImage {
   margin: 1em;
